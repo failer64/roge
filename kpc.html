@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-	<title>Контакты</title>
+	<title>Оборудование КРС</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20211129110441">
@@ -12,7 +12,6 @@
 </head>
 
 <body>
-	<script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
 	<div class="wrapper">
 		<header class="header _lp">
 	<div class="header__container _container">
@@ -54,7 +53,7 @@
 						<a href="about.html" class="menu__link ">О компании</a>
 					</li>
 					<li class="menu__item">
-						<a href="kpc.html" class="menu__link ">Оборудование</a>
+						<a href="kpc.html" class="menu__link _active">Оборудование</a>
 					</li>
 					<li class="menu__item">
 						<a href="#" class="menu__link ">Услуги</a>
@@ -63,7 +62,7 @@
 						<a href="#" class="menu__link ">Нефтесервис</a>
 					</li>
 					<li class="menu__item">
-						<a href="contacts.html" class="menu__link _active">Контакты</a>
+						<a href="contacts.html" class="menu__link ">Контакты</a>
 					</li>
 				</ul>
 			</nav>
@@ -76,100 +75,119 @@
 	</div>
 </header>
 		<main class="page">
-			<div class="contacts__header-bg"></div>
-			<section class="page__contacts contacts">
-				<div class="contacts__content">
-					<div class="contacts__container _container">
-						<div class="contacts__body">
-							<h2 class="contacts__title fullscreen__title">Контакты</h2>
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__label">Мы находимся:</div>
-								<a href="#" class="item-contacts__adress _icon-point"><span>Россия, 191167, Санкт-Петербург,
-										Невский проспект, 151, пом. 34, офис 11</span></a>
-							</div>
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__label">Номер телефона:</div>
-								<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
-								<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
-							</div>
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__label">Email:</div>
-								<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">info@roge.tech</a>
-							</div>
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__label">Отдел поддержки:</div>
-								<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
-								<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
-							</div>
-						</div>
-					</div>
+			<section class="page__fullscreen fullscreen">
+				<div class="fullscreen__bg _ibg">
+					<img src="img/kpc/kpc_bg.jpg?_v=1638173081538" alt="kpc">
 				</div>
-				<div class="contacts__map" id="map">
-
+				<div class="fullscreen__container _container">
+					<h1 class="fullscreen__title">Оборудование для <span>капитального ремонта скважин</span></h1>
+					<div class="fullscreen__text">Метчики, колокола ловильные, овершот оосвобождающийся, труболовка
+						освобождающаяся, труболовка внутренняя освобождающаяся,<br> удочка шарнирная, фрезер-ловитель
+						магнитный</div>
+					<a href="#" class="fullscreen__btn button"><span>Отправить запрос</span></a>
 				</div>
 			</section>
-			<section class="page__representative representative">
-				<div class="representative__container _container">
-					<h2 class="representative__title title">Наши представительства</h2>
-					<div class="representative__row">
-						<div class="representative__column">
-							<div class="contacts__body representative__item">
-								<h3 class="representative__label">Турция</h3>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Мы находимся:</div>
-									<a href="#" class="item-contacts__adress _icon-point"><span>Турция, 191167, Санкт-Петербург,
-											Невский проспект, 151, пом. 34, офис 11</span></a>
+			<section class="page__lov-instr lov-instr">
+				<div class="lov-instr__container _container">
+					<h2 class="lov-instr__title small-title">Ловильный инструмент</h2>
+					<div class="row">
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_01.png?_v=1638173081538" alt="Метчики">
 								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Номер телефона:</div>
-									<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
-									<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
+								<div class="row__text">Метчики </div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_02.png?_v=1638173081538" alt="Колокола ловильные">
 								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Email:</div>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">info@roge.tech</a>
+								<div class="row__text">Колокола ловильные</div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_03.png?_v=1638173081538" alt="Овершот оосвобождающийся">
 								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Отдел поддержки:</div>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
+								<div class="row__text">Овершот<br> освобождающийся</div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_04.png?_v=1638173081538" alt="Труболовка освобождающаяся ">
+								</div>
+								<div class="row__text">Труболовка<br> освобождающаяся</div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_05.png?_v=1638173081538" alt="Труболовка внутренняя освобождающаяся">
+								</div>
+								<div class="row__text">Труболовка внутренняя освобождающаяся </div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_06.png?_v=1638173081538" alt="Удочка шарнирная">
+								</div>
+								<div class="row__text">Удочка шарнирная</div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+						<div class="row-exp__column">
+							<a href="#" class="row__item">
+								<div class="row__icon">
+									<img src="img/kpc/icon_07.png?_v=1638173081538" alt="Фрезер-ловитель магнитный">
+								</div>
+								<div class="row__text">Фрезер-ловитель магнитный</div>
+								<div class="row__triangle"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='page__frezer frezer'>
+				<div class='frezer__container _container'>
+					<h2 class="frezer__title small-title">Фрезерующий инструмент и Печати свинцовые</h2>
+					<div class="frezer__row">
+						<div class="frezer__column">
+							<div class="frezer__item">
+								<a href="#" class="frezer__image _ibg">
+									<img src="img/kpc/image_01.jpg?_v=1638173081538" alt="Фрезеры">
+								</a>
+								<div class="frezer__text">
+									<a href="#">Фрезеры</a>
 								</div>
 							</div>
 						</div>
-						<div class="representative__column">
-							<div class="contacts__body representative__item">
-								<h3 class="representative__label">Ташкент</h3>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Мы находимся:</div>
-									<a href="#" class="item-contacts__adress _icon-point"><span>Ташкент, 191167, Санкт-Петербург,
-											Невский проспект, 151, пом. 34, офис 11</span></a>
-								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Номер телефона:</div>
-									<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
-									<a href="tel:79181990139" class="item-contacts__phone _icon-tel">+7 (918) 199-01-39</a>
-								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Email:</div>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">info@roge.tech</a>
-								</div>
-								<div class="contacts__item item-contacts">
-									<div class="item-contacts__label">Отдел поддержки:</div>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
-									<a href="mailto:info@roge.tech" class="item-contacts__mail _icon-mess">sale@mail.ru</a>
+						<div class="frezer__column">
+							<div class="frezer__item">
+								<a href="#" class="frezer__image _ibg">
+									<img src="img/kpc/image_02.jpg?_v=1638173081538" alt="Печать свинцовая">
+								</a>
+								<div class="frezer__text">
+									<a href="#">Печать свинцовая</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="representative__bg _ibg">
-					<img src="img/contacts/contacts_bg.jpg?_v=1638173081538" alt="contacts">
 				</div>
 			</section>
 			<section class="page__callback callback">
 				<div class="callback__container _container">
-					<form action="#" method="post" class="callback__form form" data-test data-message='mess'>
-						<h2 class="form__title small-title">Оставьте заявку для связи с нами:</h2>
+					<form data-test data-message='mess' action="#" method="post" class="callback__form form form_email">
+						<h2 class="form__title small-title">Заказать каталог оборудования</h2>
 						<div class="form__subtitle">ROGE обладает современным подходом в производстве высокотехнологичного
 							оборудования подборе по требованиям заказчика и оптимизации логистики</div>
 						<div class="form__line">
@@ -180,6 +198,10 @@
 							<div class="form__item">
 								<input autocomplete="off" type="tel" name="form[]" data-error="Введите номер"
 									data-value="Ваш номер телефона" class="input _req _phone" />
+							</div>
+							<div class="form__item">
+								<input autocomplete="off" type="text" name="form[]" data-error="Введите верный E-mail"
+									data-value="Ваш E-mail" class="input _req _email" />
 							</div>
 							<div class="form__item">
 								<button type="submit" class="form__btn button"><span>Отправить заявку</span></button>
@@ -196,6 +218,36 @@
 							</div>
 						</div>
 					</form>
+				</div>
+			</section>
+			<section class='page__questions questions'>
+				<div class='questions__container _container'>
+					<h2 class="questions__title small-title small-title_w">Ответы на частые вопросы</h2>
+					<div class="questions__block block-questions">
+						<a href="" class="block-questions__item">
+							<div class="block-questions__title">Каковы условия доставки б/у труб по России?
+							</div>
+						</a>
+						<a href="" class="block-questions__item">
+							<div class="block-questions__title">Возможен ли самовывоз труб?
+							</div>
+						</a>
+						<a href="" class="block-questions__item">
+							<div class="block-questions__title">Какие есть способы оплаты заказа?
+							</div>
+						</a>
+						<a href="" class="block-questions__item">
+							<div class="block-questions__title">Полный комплект документов к заказанной партии?
+							</div>
+						</a>
+						<a href="" class="block-questions__item">
+							<div class="block-questions__title">Есть ли скидки на б/у трубы?
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="questions__bg _ibg">
+					<img src="img/kpc/questions_bg.jpg?_v=1638173081538" alt="questions_bg">
 				</div>
 			</section>
 		</main>
